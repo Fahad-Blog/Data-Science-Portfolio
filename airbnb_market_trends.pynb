@@ -1,0 +1,44 @@
+# Import necessary packages
+import pandas as pd
+import numpy as np
+
+# Begin coding here ...
+# Use as many cells as you like
+
+#Importing CSV file
+df_price = pd.read_csv('data/airbnb_price.csv')
+# Importing Excel File
+xls = pd.ExcelFile('data/airbnb_room_type.xlsx')
+df_type = xls.parse('airbnb_room_type')
+#Importing TSV file
+df_lr = pd.read_csv('data/airbnb_last_review.tsv', sep = '\t')
+print(df_price.head())
+print(df_type.head())
+print(df_lr.head())
+
+import datetime as dt
+df_lr['last_review'] = pd.to_datetime(df_lr['last_review']).dt.date
+earliest = df_lr['last_review'].min()
+most_recent = df_lr['last_review'].max()
+print(earliest)
+print(most_recent)
+
+#check the unique values of Room type - Looks like there are loot of private rooms unique values
+df_type['room_type'] = df_type['room_type'].str.lower()
+private_room_type = df_type['room_type']=='private room'
+df_pr_room = df_type[private_room_type]
+listing_pr_room = df_pr_room['room_type'].count()
+#or you can use the below 
+
+test = df_type.loc[df_type['room_type']=="private room", 'room_type'].count()
+
+df_price['price'] = df_price['price'].str.replace("dollars","")
+df_price['price'] = df_price['price'].astype(int)
+avg_price_1 = df_price['price'].mean().round(2)
+avg_price_1
+
+review_dates = pd.DataFrame({"first_reviewed":[earliest],
+                            "last_reviewed":[most_recent],
+                            "nb_private_rooms":[listing_pr_room],
+                            "avg_price":[avg_price_1]})
+print(review_date)
