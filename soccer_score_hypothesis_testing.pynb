@@ -1,0 +1,29 @@
+# Start your code here!
+import pandas as pd
+df_men = pd.read_csv('men_results.csv')
+df_women = pd.read_csv('women_results.csv')
+with pd.option_context('display.max_columns', None, 'display.max_colwidth', None):  
+    display(df_men.head()) 
+    display(df_women.head())
+  df_men_fifa = df_men[(df_men['tournament']=='FIFA World Cup') & (df_men['date']>='2002-01-01')]
+df_women_fifa = df_women[(df_women['tournament']=='FIFA World Cup') & (df_women['date']>='2002-01-01')]
+df_men_fifa.head()
+df_women_fifa.head()
+df_men_fifa['total_score'] = df_men_fifa['home_score'] + df_men_fifa['away_score']
+df_women_fifa['total_score'] = df_women_fifa['home_score'] + df_women_fifa['away_score']
+df_men_fifa.head()
+df_women_fifa.head()
+import matplotlib.pyplot as plt
+import seaborn as sns
+df_women_fifa.hist('total_score')
+plt.show()
+plt.clf()
+
+df_women_fifa.shape
+import pingouin as pg
+wmw_test = pg.mwu(x=df_men_fifa['total_score'],y=df_women_fifa['total_score'], alternative = 'less')
+p_val = wmw_test['p-val'][0]
+print(p_val)
+result = 'reject'
+result_dict = {"p_val":p_val,"result":result}
+print(result_dict)
