@@ -1,0 +1,36 @@
+# All required libraries are imported here for you.
+import pandas as pd
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn import metrics
+
+# Load the dataset
+crops = pd.read_csv("soil_measures.csv")
+
+# Write your code here
+
+print(crops['crop'].unique())
+
+print(crops.isna().sum())
+
+X = crops.drop('crop', axis = 1)
+y= crops['crop']
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size= 0.2,random_state = 42)
+
+print(X)
+
+print(y.shape)
+
+features_dict = {}
+feature_names = ["N", "P", "K", "ph"]
+for features in feature_names:
+    logreg = LogisticRegression(multi_class="multinomial")
+    logreg.fit(X_train[[features]],y_train)
+    y_pred = logreg.predict(X_test[[features]])
+    feature_performance = metrics.f1_score(y_test,y_pred,average = "weighted")
+    features_dict[features] = feature_performance
+    print(f"F1-Score for {features}:{feature_performance}")
+
+print(features_dict)
+
+best_predictive_feature = {'K':0.23896974566001802}
