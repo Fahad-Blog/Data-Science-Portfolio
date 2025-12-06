@@ -30,8 +30,6 @@ My architecture ensures that data flows seamlessly from raw ingestion to prescri
 
 
 
-[Image of Machine Learning Pipeline]
-
 
 ---
 
