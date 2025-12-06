@@ -29,6 +29,7 @@ My architecture ensures that data flows seamlessly from raw ingestion to prescri
 | **Analyze & Visualize** | Converting statistical outputs into executive-level dashboards (Tableau/Looker) for strategic alignment. |
 
 
+<img width="3999" height="3999" alt="image" src="https://github.com/user-attachments/assets/bb62bb39-697f-4b65-9e6d-e526214d5722" />
 
 
 ---
