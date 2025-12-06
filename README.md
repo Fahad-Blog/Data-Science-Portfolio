@@ -1,77 +1,98 @@
 # Hi there, I'm Mohammad Fahad Anwar 👋
+### Senior Data & Analytics Architect | ex-Deloitte, MongoDB
+**Transforming raw data into strategic assets. Specializing in Marketing Analytics, Revenue Forecasting, and Scalable ETL Frameworks.**
 
-### 🚀 Data Strategy & AI-Ready Analytics Leader | Ex-Deloitte & MongoDB
-**9+ Years Experience transforming complex data into prescriptive insights.**
-
----
-
-### 👨‍💻 About Me
-
-I am a seasoned Data Professional specializing in designing and implementing **robust, AI-ready analytics solutions**. With over **9 years of experience** at leading organizations, I bridge the gap between raw data and strategic decision-making.
-
-My passion lies in crafting high-impact, scalable reporting frameworks and **ETL/ELT architectures** that do more than just describe the past—they pave the way for **Generative AI (GenAI)** and predictive modeling.
-
-* **🔭 Current Focus:** Transitioning organizations from descriptive to **prescriptive analytics** via resilient data pipelines.
-* **💡 Methodology:** Anchored in deep **user research**, ensuring data products are intuitive, valuable, and aligned with diverse target personas.
-* **🤝 Collaboration:** I foster cross-functional alignment across Product, Engineering, and Business teams to democratize data accessibility.
+[LinkedIn](https://www.linkedin.com/in/fahadanwar10/) • [Email Me](mailto:fahadanwaran10@gmail.com)
 
 ---
 
-### 🛠️ Technical Arsenal
+## 🚀 Executive Summary
 
-I span the entire data lifecycle, from data modeling to ML deployment.
+With over **9 years of experience**, I architect robust, AI-ready analytics solutions that drive business objectives. My background spans from **Deloitte** to **MongoDB**, where I led regional marketing analytics lifecycles and championed cross-cultural data initiatives across Dublin, Singapore, and Brazil.
 
-| Domain | Technologies & Tools |
+I specialize in **bridging the gap between Technical Engineering and Business Strategy**. I don't just build models; I build frameworks—from data governance and GDPR compliance to advanced revenue forecasting engines—that empower leadership to make data-driven decisions.
+
+> **Key Impact:** > * **40% increase** in data accuracy through holistic measurement frameworks.
+> * **60% reduction** in reporting turnaround time via Python/PowerBI automation.
+> * **Award Winner:** Marketing Operation Excellence & Sport Performance Award for Analytics.
+
+---
+
+## 🧠 Solution Methodology
+
+My architecture ensures that data flows seamlessly from raw ingestion to prescriptive insight.
+
+| Phase | My Approach |
 | :--- | :--- |
-| **Languages** | Python, SQL, R, Scala |
-| **Data Engineering** | ETL/ELT Design, Airflow, dbt, Spark, Kafka |
-| **Database & Cloud** | MongoDB, Snowflake, PostgreSQL, AWS, Azure, Google Cloud |
-| **Data Viz** | Tableau, PowerBI, Looker, Plotly, Streamlit |
-| **Machine Learning** | Scikit-learn, TensorFlow, XGBoost, Regression, Classification |
-| **GenAI & LLMs** | OpenAI API, LangChain, RAG Architectures |
+| **Ingest & Govern** | Implementing strict version control and Data Governance (Alation/GDPR) to ensure lineage and quality. |
+| **Process & Model** | Optimizing ETL workflows (Alteryx/Python) to feed AI-ready datasets into Regression/Classification models. |
+| **Analyze & Visualize** | Converting statistical outputs into executive-level dashboards (Tableau/Looker) for strategic alignment. |
+
+
+
+[Image of Machine Learning Pipeline]
+
 
 ---
 
-### 📂 Featured Projects
+## 📂 Featured Portfolio Projects
 
-#### 1. [Project Name: Dynamic Pricing Engine] (Regression Analysis)
-> *Predicting optimal price points to maximize revenue based on historical sales data.*
+### 1. ARR Revenue Forecast Engine (Regression) 📉
+**Context:** Strategic Planning for High-Growth SaaS (MongoDB)
+**Objective:** To replace manual, error-prone forecasting with an automated Machine Learning solution for Annual Recurring Revenue (ARR).
 
-* **The Business Problem:** The client faced revenue stagnation due to static pricing models that failed to account for seasonality and demand surges.
-* **The Solution:** Developed a **Multi-Linear Regression model** utilizing 5+ years of transactional data. Engineered features including holiday indicators, competitor pricing, and inventory levels.
-* **Key Tech:** Python, Pandas, Scikit-learn, Statsmodels.
-* **Impact:** Improved forecast accuracy by 18% and identified a 7% potential revenue uplift.
+* **The Challenge:** Leadership lacked predictive visibility into FY25-26 revenue streams, relying on static historical data.
+* **The Solution:** Developed a robust **Regression framework** using Python (Scikit-Learn, Pandas). The model correlates marketing KPIs with sales outcome data to predict future revenue.
+* **Architecture:**
+    * **Data Engineering:** Automated ETL from Salesforce/Internal DBs.
+    * **Modeling:** Time-series forecasting combined with regressive feature analysis.
+* **Business Impact:**
+    * 🏆 **Awarded Marketing Operation Excellence Award** for successful implementation.
+    * Provided critical predictive insights used for FY25-26 strategic planning.
 
-#### 2. [Project Name: Customer Churn Sentinel] (Classification)
-> *Identifying at-risk high-value customers using ensemble learning techniques.*
 
-* **The Business Problem:** High churn rates in the subscription segment were eroding monthly recurring revenue (MRR).
-* **The Solution:** Built a robust **Classification Pipeline (Random Forest & XGBoost)**. The model analyzes user engagement logs and support ticket sentiment to flag high-risk accounts.
-* **Key Tech:** Python, Imbalanced-learn, XGBoost, SHAP (for interpretability).
-* **Impact:** Achieved an F1-score of 0.82 and enabled the retention team to proactively save 15% of at-risk accounts in Q1.
 
-#### 3. [Project Name: Scalable ETL for ML Pipelines] (Data Engineering)
-> *Architecting a resilient data pipeline to feed real-time ML models.*
+### 2. Customer Conversion & Attribution Modeling (Classification) 🎯
+**Context:** Marketing Lifecycle Optimization
+**Objective:** To classify high-intent users and quantify marketing impact across the customer journey.
 
-* **The Scope:** Designed the end-to-end architecture to move data from raw logs to a structured data warehouse, optimized for AI consumption.
-* **Result:** Reduced data latency by 40%, ensuring "AI-Ready" data availability for downstream GenAI applications.
+* **The Challenge:** Determining which marketing channels were actually driving conversions versus just generating noise.
+* **The Solution:** A **Multi-Channel Attribution & Classification System**.
+    * **Linear Attribution Model:** Quantified impact across touchpoints.
+    * **Conversion Lift Studies:** Used statistical methods to classify and predict incremental performance of campaigns.
+* **Technique:** Implemented Media Mix Modeling (MMM) and ROI analysis using Python libraries to classify campaign effectiveness.
+* **Business Impact:**
+    * **40% Increase** in engagement and data accuracy.
+    * Optimized marketing spend across Google Analytics, Amplitude, and Segment.
+
+
+
+### 3. Global Analytics Warehouse & ETL Automation ⚙️
+**Context:** Enterprise Data Architecture (Deloitte USI)
+**Objective:** Streamlining global reporting and enforcing data governance.
+
+* **The Challenge:** Bi-annual reporting took weeks to generate due to fragmented data sources.
+* **The Solution:** Architected a Global Marketing Campaign Dashboard and automated the data pipeline.
+    * **Automation:** Python scripting + Power BI integration.
+    * **Governance:** Established data lineage documentation and GDPR compliance frameworks.
+* **Business Impact:**
+    * 🏆 **Star Performance Award** for automation excellence.
+    * **60% Reduction** in report preparation turnaround time.
+    * **20% Reduction** in end-to-end data processing time via optimized SQL/Alteryx workflows.
+
 
 ---
 
-### 🧠 My Solution Philosophy
+## 🛠️ Technical Stack
 
-My work is not just about writing code; it is about building **Intelligent Data Systems**.
+| Domain | Tools & Technologies |
+| :--- | :--- |
+| **Languages** | Python (Pandas, NumPy, Scikit-Learn), SQL, R |
+| **BI & Visualization** | Tableau (Advanced), PowerBI, Looker, Google Analytics |
+| **Data Engineering** | ETL/ELT, Alteryx, Tableau Prep, Airflow, Amazon Redshift |
+| **Governance & Cloud** | Alation, Github (Version Control), Jira, MongoDB Atlas, AWS |
+| **Analytics** | Attribution Modeling, Media Mix Modeling, A/B Testing, Lift Studies |
 
-1.  **User-Centric Design:** I treat dashboards and data products as software, conducting user research to ensure high adoption.
-2.  **Scalability First:** I build architectures that adapt to evolving business requirements, avoiding technical debt.
-3.  **From Descriptive to Prescriptive:** I help stakeholders move beyond "What happened?" to "What should we do?"
-
----
-
-### 📊 GitHub Stats
-
-![Mohammad's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
@@ -80,4 +101,4 @@ My work is not just about writing code; it is about building **Intelligent Data 
 I am always open to discussing Data Strategy, ML Engineering, and the future of GenAI.
 
 * [**LinkedIn**](https://www.linkedin.com/in/fahadanwar10/)
-* [**Email:**] (fahadanwaran10@gmail.com) 
+* [Email Me] (mailto:fahadanwaran10@gmail.com)
