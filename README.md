@@ -1,5 +1,5 @@
 # Hi there, I'm Mohammad Fahad Anwar 👋
-### Senior Data & Analytics Architect | ex-Deloitte, MongoDB
+### Senior Data & Analytics Architect @ MongoDB | ex-Deloitte
 **Transforming raw data into strategic assets. Specializing in Marketing Analytics, Revenue Forecasting, and Scalable ETL Frameworks.**
 
 [LinkedIn](https://www.linkedin.com/in/fahadanwar10/) • [Email Me](mailto:fahadanwaran10@gmail.com)
