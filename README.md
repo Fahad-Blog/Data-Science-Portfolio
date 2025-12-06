@@ -34,7 +34,7 @@ I span the entire data lifecycle, from data modeling to ML deployment.
 
 ### 📂 Featured Projects
 
-#### 1. [Project Name: e.g., Dynamic Pricing Engine] (Regression Analysis)
+#### 1. [Project Name: Dynamic Pricing Engine] (Regression Analysis)
 > *Predicting optimal price points to maximize revenue based on historical sales data.*
 
 * **The Business Problem:** The client faced revenue stagnation due to static pricing models that failed to account for seasonality and demand surges.
@@ -42,7 +42,7 @@ I span the entire data lifecycle, from data modeling to ML deployment.
 * **Key Tech:** Python, Pandas, Scikit-learn, Statsmodels.
 * **Impact:** Improved forecast accuracy by 18% and identified a 7% potential revenue uplift.
 
-#### 2. [Project Name: e.g., Customer Churn Sentinel] (Classification)
+#### 2. [Project Name: Customer Churn Sentinel] (Classification)
 > *Identifying at-risk high-value customers using ensemble learning techniques.*
 
 * **The Business Problem:** High churn rates in the subscription segment were eroding monthly recurring revenue (MRR).
@@ -50,7 +50,7 @@ I span the entire data lifecycle, from data modeling to ML deployment.
 * **Key Tech:** Python, Imbalanced-learn, XGBoost, SHAP (for interpretability).
 * **Impact:** Achieved an F1-score of 0.82 and enabled the retention team to proactively save 15% of at-risk accounts in Q1.
 
-#### 3. [Project Name: e.g., Scalable ETL for ML Pipelines] (Data Engineering)
+#### 3. [Project Name: Scalable ETL for ML Pipelines] (Data Engineering)
 > *Architecting a resilient data pipeline to feed real-time ML models.*
 
 * **The Scope:** Designed the end-to-end architecture to move data from raw logs to a structured data warehouse, optimized for AI consumption.
