@@ -54,6 +54,7 @@ My architecture ensures that data flows seamlessly from raw ingestion to prescri
 
 ### 2. Customer Conversion & Attribution Modeling (Classification) 🎯
 **Context:** Marketing Lifecycle Optimization
+
 **Objective:** To classify high-intent users and quantify marketing impact across the customer journey.
 
 * **The Challenge:** Determining which marketing channels were actually driving conversions versus just generating noise.
@@ -69,6 +70,7 @@ My architecture ensures that data flows seamlessly from raw ingestion to prescri
 
 ### 3. Global Analytics Warehouse & ETL Automation ⚙️
 **Context:** Enterprise Data Architecture (Deloitte USI)
+
 **Objective:** Streamlining global reporting and enforcing data governance.
 
 * **The Challenge:** Bi-annual reporting took weeks to generate due to fragmented data sources.
