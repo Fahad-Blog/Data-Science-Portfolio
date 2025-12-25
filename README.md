@@ -38,7 +38,7 @@ My architecture ensures that data flows seamlessly from raw ingestion to prescri
 
 ### 1. ARR Revenue Forecast Engine (Regression) 📉
 **Context:** Strategic Planning for High-Growth SaaS (MongoDB)
-**Objective:** To replace manual, error-prone forecasting with an automated Machine Learning solution for Annual Recurring Revenue (ARR).
+* **Objective:** To replace manual, error-prone forecasting with an automated Machine Learning solution for Annual Recurring Revenue (ARR).
 
 * **The Challenge:** Leadership lacked predictive visibility into FY25-26 revenue streams, relying on static historical data.
 * **The Solution:** Developed a robust **Regression framework** using Python (Scikit-Learn, Pandas). The model correlates marketing KPIs with sales outcome data to predict future revenue.
